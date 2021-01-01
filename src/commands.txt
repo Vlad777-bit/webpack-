@@ -1,0 +1,26 @@
+init// инициализация проекта
+0) npm init -y 
+
+// установка webpack
+1) npm i -D webpack webpack-cli
+
+// установка компонентов
+npm i -D webpack webpack-cli css-loader html-webpack-plugin mini-css-extract-plugin
+
+// установка bootstrap
+2) npm i bootstrap jquery popper.js
+
+// позволяет автоматически обновлять страницу в браузере
+npm i -D webpack-dev-server
+
+3) (package.json) 
+    "scripts": {
+        "build": "webpack --mode development"    
+    },
+
+4) создать папку src в корне проекта
+
+5) создать файл index.js в папке src
+
+// запускаем webpack
+5) npm run build
