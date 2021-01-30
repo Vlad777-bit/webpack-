@@ -24,3 +24,22 @@ npm i -D webpack-dev-server
 
 // запускаем webpack
 5) npm run build
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+Для работы с vue
+
+// установка vue
+1) npm i vue
+
+// подгрузчики для vue
+2) npm i -D vue-loader vue-template-compiler
+
+// установка babel
+3) npm i -D @babel/core @babel/preset-env babel-loader
+
+создать файл .babelrc и прописать в нём 
+{
+    "presets": ["@babel/preset-env"]
+} 
